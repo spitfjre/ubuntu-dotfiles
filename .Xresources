@@ -1,0 +1,47 @@
+Xft.dpi:		96
+Xft.antialias: 	true
+Xft.hinting: 	true
+Xft.rgba: 		rgb
+Xft.autohint: 	false
+Xft.hintstyle: 	hintslight
+Xft.lcdfilter: 	lcddefault
+
+#define base_material_foreground 		#dedede
+#define base_material_dark_background 	#242424
+#define base_material_light_background 	#333333
+#define base_material_primary 			#315bef
+#define base_material_warn       		#fc4138
+
+*material_foreground: 		base_material_foreground
+*material_light_background: base_material_light_background
+*material_dark_background: 	base_material_dark_background
+*material_primary: 	  		base_material_primary
+*material_warn: 	  		base_material_warn
+
+! Rofi Settings
+rofi.dpi:			  96
+rofi.width:			  50
+rofi.padding:		  10
+rofi.fullscreen: 	  false
+rofi.fixed-num-lines: true
+rofi.bw:			  1
+rofi.location:		  0
+rofi.terminal:		  alacritty
+rofi.lines:			  10
+rofi.eh:			  1
+rofi.hide-scrollbar:  true
+rofi.separator-style: solid
+rofi.font:      	  Iosevka Term SS08 11
+rofi.show-icons:      true
+rofi.drun-icon-theme: Mojave-Ct
+rofi.blur-background: true
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: false
+! 					background				  		foreground					background alt			  		highlight background 	highlight foreground
+rofi.color-window: 	base_material_dark_background, 	base_material_primary,    	base_material_primary
+rofi.color-normal: 	base_material_dark_background, 	base_material_foreground, 	base_material_dark_background, 	base_material_primary, 	base_material_foreground
+rofi.color-active: 	base_material_dark_background, 	base_material_primary,    	base_material_dark_background, 	base_material_primary, 	base_material_foreground
+rofi.color-urgent: 	base_material_dark_background, 	base_material_foreground, 	base_material_dark_background, 	base_material_primary, 	base_material_foreground 
