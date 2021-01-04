@@ -9,3 +9,5 @@ cp -rvn $repoDir/.fonts $HOME/.fonts
 cp $repoDir/.Xresources $HOME
 cp $repoDir/.gitconfig $HOME
 cp $repoDir/.zshrc $HOME
+
+fc-cache -vf
