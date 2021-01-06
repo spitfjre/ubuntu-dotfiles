@@ -96,6 +96,8 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+source $ZSH/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+
 DEFAULT_USER=`whoami`
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
